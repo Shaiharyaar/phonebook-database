@@ -5,7 +5,7 @@
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon --inspect index.js",
-    "build:ui": "rm -rf dist && cd ../../part2/phonebook && yarn build && cp -r dist ../../part3/phonebook-database",
+    "build:ui": "rm -rf dist && cd ../../Full-Stack-Development/part2/phonebook && yarn build && cp -r dist ../../../FD/phonebook-database",
     "deploy:full": "npm run build:ui && git add . && git commit -m uibuild && git push origin main",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
